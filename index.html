@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Millesime Studio · Retraite Pilates – Les Deux Tours, Marrakech (5–8 février 2026)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --brand-dark:#1f2937;
+      --brand-gold:#b89b5e;
+      --brand-cream:#f6f4ef;
+      --brand-light:#faf9f6;
+    }
+    body{font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color:var(--brand-dark); background-color:#fff;}
+    h1,h2,h3,.display-*, .hero-title{font-family: "Playfair Display", Georgia, serif;}
+    .btn-brand{background:var(--brand-gold); color:#fff; border:none;}
+    .btn-brand:hover{filter:brightness(0.95); color:#fff;}
+    .section{padding: 64px 0;}
+    .section-alt{background:var(--brand-light);}
+    .eyebrow{letter-spacing:.12em; text-transform:uppercase; font-size:.8rem; color:var(--brand-gold);}
+    .hero{
+      position:relative; min-height:70vh; display:flex; align-items:center; color:#fff;
+      background:url('https://res.cloudinary.com/da2krghvd/image/upload/v1763024440/LDT-DAY-3-50-copy-800x600_an8kmj.jpg?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+    }
+    .hero::after{content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,.55), rgba(0,0,0,.35));}
+    .hero .container{position:relative; z-index:2;}
+    .hero-card{backdrop-filter: blur(6px); background-color:rgba(255,255,255,.09); border:1px solid rgba(255,255,255,.2); border-radius:16px;}
+    .pill{display:inline-block; padding:.35rem .75rem; border-radius:999px; background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.35); font-size:.85rem;}
+    .media-img{border-radius:16px; object-fit:cover; width:100%; height:100%;}
+    .card-elev{border:0; border-radius:16px; box-shadow:0 8px 30px rgba(0,0,0,.08);}
+    .timeline{position:relative; margin-left:1rem; padding-left:1.5rem;}
+    .timeline::before{content:""; position:absolute; left:.25rem; top:.25rem; bottom:.25rem; width:2px; background:linear-gradient(var(--brand-gold), transparent);}
+    .timeline .item{position:relative; margin-bottom:1.25rem;}
+    .timeline .item::before{content:""; position:absolute; left:-1.05rem; top:.2rem; width:.65rem; height:.65rem; border-radius:50%; background:var(--brand-gold);}
+    .list-check{list-style:none; padding-left:0;}
+    .list-check li{padding-left:1.75rem; position:relative; margin:.4rem 0;}
+    .list-check li::before{content:"✓"; position:absolute; left:0; color:var(--brand-gold); font-weight:700;}
+    .footer{background:var(--brand-cream);}
+    .logo{font-family:"Playfair Display"; font-weight:700; letter-spacing:.06em;}
+    a{text-decoration:none}
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg bg-white py-3 border-bottom sticky-top">
+    <div class="container">
+      <a class="navbar-brand logo" href="#">MILLÉSIME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#intro">L’expérience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#concept">Concept</a></li>
+          <li class="nav-item"><a class="nav-link" href="#lieu">Le lieu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#talents">Talents</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programme">Programme</a></li>
+          <li class="nav-item"><a class="nav-link" href="#inclus">Inclus</a></li>
+          <li class="nav-item"><a class="btn btn-sm btn-brand ms-lg-3" href="#cta" style='margin-top: 6px;'>Réserver</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container py-5">
+      <div class="row justify-content-start">
+        <div class="col-12 col-lg-7">
+          <div class="p-4 p-md-5 hero-card">
+            <div class="d-flex gap-2 mb-2 flex-wrap">
+              <span class="pill">Pilates Reformer & Mat</span>
+              <span class="pill">12 participantes</span>
+              <span class="pill">5–8 février 2026</span>
+              <span class="pill">Marrakech, Palmeraie</span>
+            </div>
+            <div class="eyebrow mb-1">Millesime Studio · Expérience Signature</div>
+            <h1 class="hero-title display-5 mb-3">A Life of Movement — L’art du Pilates à Marrakech</h1>
+            <p class="lead mb-4">Une parenthèse exclusive dédiée au mouvement, au souffle et à la reconnexion, dans l’écrin 5★ des Deux Tours.</p>
+            <div class="d-flex gap-3">
+              <a href="#cta" class="btn btn-lg btn-brand">Réserver votre place</a>
+              <a href="#programme" class="btn btn-lg btn-outline-light">Découvrir le programme</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- INTRO -->
+  <section id="intro" class="section">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-12 col-lg-6">
+          <h2 class="mb-3">Une retraite premium, intime et inspirante</h2>
+          <p>Conçue pour un cercle de 12 participantes, cette retraite Pilates & bien‑être s’inscrit dans la philosophie Millésime&nbsp;: un art de vivre authentique, libre et inspiré. À l’hôtel <em>Les Deux Tours</em>, l’expérience conjugue la rigueur du Pilates Reformer, la fluidité du Pilates au sol, la douceur des soins et la découverte sensorielle du Maroc.</p>
+          <p>Chaque espace devient un lieu de transformation&nbsp;: le corps s’aligne, le souffle s’apaise, l’énergie circule à nouveau. Pensée au cœur de l’hiver, c’est un nouvel élan pour commencer l’année avec grâce, puissance et sérénité.</p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img class="media-img" src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1400&auto=format&fit=crop" alt="Pratique Pilates dans un riad à Marrakech">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT -->
+  <section id="concept" class="section section-alt">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-lg-6">
+          <h2 class="mb-3">Un concept fort à Marrakech</h2>
+          <p>Le marché local regorge d’offres yoga, mais rares sont celles qui placent le <strong>Pilates</strong> au cœur d’une véritable expérience de bien‑être. En faisant de cette discipline le fil conducteur du séjour, <em>Les Deux Tours</em> ouvre une voie nouvelle&nbsp;: précision, alignement et intelligence du mouvement, au service d’un mieux‑être profond.</p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="p-4 p-md-5 bg-white card-elev">
+            <div class="eyebrow mb-2">Positionnement premium & intimiste</div>
+            <ul class="list-check">
+              <li>Hébergement 5★ aux Deux Tours, icône du raffinement marocain.</li>
+              <li>Groupe limité à 12 participantes pour une expérience personnalisée.</li>
+              <li>Encadrement par des expertes reconnues, alliant exigence et bienveillance.</li>
+              <li>Scénarisation des temps forts pour garantir émotion, progression et partage.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIEU -->
+  <section id="lieu" class="section">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-6 order-lg-2">
+          <h2 class="mb-3">Les Deux Tours — Élégance, sérénité et art de vivre marocain</h2>
+          <p>Au cœur de la Palmeraie, le domaine imaginé par l’architecte Charles Boccara s’étend sur trois hectares de jardins, bassins et fontaines, à quinze minutes de la Médina. 44 chambres et suites (dont certaines avec piscine privée), une piscine chauffée toute l’année et le spa <em>Les Bains des Deux Tours</em> composent un cadre d’exception.</p>
+          <p>Salammbô célèbre les produits du terroir marocain, La Pergola offre une cuisine fraîche au bord de l’eau, tandis que le Yoshi Bar et le Bar des Jardins complètent l’expérience.</p>
+          <div class="d-flex gap-3 mt-3">
+            <a class="btn btn-outline-dark" target="_blank" href="https://les-deux-tours.com/?lang=fr">Site de l’hôtel</a>
+            <a class="btn btn-outline-dark" target="_blank" href="https://www.instagram.com/isamille/?hl=fr">@hotel_les_deux_tours</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 order-lg-1">
+          <div class="row g-3">
+            <div class="col-6"><img class="media-img" src="https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=800&auto=format&fit=crop" alt="Jardins et fontaines"></div>
+            <div class="col-6"><img class="media-img" src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&auto=format&fit=crop" alt="Piscine chauffée"></div>
+            <div class="col-12"><img class="media-img" src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?q=80&w=1400&auto=format&fit=crop" alt="Spa et hammam"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TALENTS -->
+  <section id="talents" class="section section-alt">
+    <div class="container">
+      <h2 class="mb-4">Talents & expertes</h2>
+      <div class="row g-4">
+        <div class="col-12 col-lg-6">
+          <div class="card card-elev h-100">
+            <div class="row g-0 h-100">
+              <div class="col-md-5">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop" class="img-fluid h-100 w-100" style="object-fit:cover; border-top-left-radius:16px; border-bottom-left-radius:16px;" alt="Isabelle Mille">
+              </div>
+              <div class="col-md-7 p-4 d-flex flex-column">
+                <h3 class="h4">Isabelle Mille</h3>
+                <p class="mb-2"><em>Conception & direction d’expérience</em></p>
+                <p class="flex-grow-1">Ancienne VP Marketing & Retail chez Lolë (événements à la Tour Eiffel, Grand Palais, Central Park). Fondatrice de MilleLab, elle conçoit cette retraite et coordonne les expertes pour garantir une expérience fluide et haut de gamme.</p>
+                <div>
+                  <a class="btn btn-sm btn-outline-dark me-2" target="_blank" href="https://www.instagram.com/isamille/?hl=fr">Instagram</a>
+                  <a class="btn btn-sm btn-outline-dark" target="_blank" href="https://www.millelab.com/">MilleLab</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="card card-elev h-100">
+            <div class="row g-0 h-100">
+              <div class="col-md-5">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop" class="img-fluid h-100 w-100" style="object-fit:cover; border-top-left-radius:16px; border-bottom-left-radius:16px;" alt="Lugdivine Meytre">
+              </div>
+              <div class="col-md-7 p-4 d-flex flex-column">
+                <h3 class="h4">Lugdivine Meytre</h3>
+                <p class="mb-2"><em>Expertise Pilates · LudiPilates</em></p>
+                <p class="flex-grow-1">Entrepreneure du bien‑être, elle propose un Pilates solaire et moderne, entre puissance, féminité et lâcher‑prise. Ses retraites mêlent Pilates, méditation, danse, journaling et massage.</p>
+                <div>
+                  <a class="btn btn-sm btn-outline-dark me-2" target="_blank" href="https://ludivine-meytre.fr/">Site</a>
+                  <a class="btn btn-sm btn-outline-dark" target="_blank" href="https://www.instagram.com/ludipilates/?hl=fr">Instagram</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMME -->
+  <section id="programme" class="section">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        <div class="col-12 col-lg-5">
+          <h2 class="mb-3">Programme (indicatif)</h2>
+          <p class="mb-4">Le déroulé précis sera confirmé selon les intervenantes, la disponibilité studio Reformer partenaire et les espaces sur site.</p>
+          <div class="p-4 bg-light rounded-4">
+            <div class="d-flex justify-content-between">
+              <div><div class="eyebrow">Dates</div><div class="fw-semibold">5–8 février 2026</div></div>
+              <div><div class="eyebrow">Taille du groupe</div><div class="fw-semibold">12 participantes</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-7">
+          <div class="timeline">
+            <div class="item">
+              <h3 class="h5 mb-1">Jour 1 — Arrivée & ancrage</h3>
+              <p class="mb-0">Accueil à l’hôtel Les Deux Tours · Première séance de Pilates doux en fin d’après‑midi.</p>
+            </div>
+            <div class="item">
+              <h3 class="h5 mb-1">Jour 2 — Énergie & précision</h3>
+              <p class="mb-0">Cours de Reformer en petits groupes (studio partenaire) · Déjeuner à l’hôtel · Séance de Pilates au sol · Temps libre&nbsp;: visite Marrakech ou soin au spa · Dîner à l’hôtel.</p>
+            </div>
+            <div class="item">
+              <h3 class="h5 mb-1">Jour 3 — Mouvement & lâcher‑prise</h3>
+              <p class="mb-0">Cours de Reformer · Déjeuner · Séance de Pilates au sol · Visite ou spa · Dîner à l’hôtel.</p>
+            </div>
+            <div class="item">
+              <h3 class="h5 mb-1">Jour 4 — Reconnexion & départ</h3>
+              <p class="mb-0">Séance douce au réveil · Check‑out et transferts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INCLUS -->
+  <section id="inclus" class="section section-alt">
+    <div class="container">
+      <h2 class="mb-4">Ce qui est inclus</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 card-elev h-100">
+            <div class="eyebrow mb-2">Hébergement & restauration</div>
+            <ul class="list-check">
+              <li>3 nuits à l’hôtel Les Deux Tours 5★.</li>
+              <li>Pension complète&nbsp;: brunchs légers & dîners inspirés des saveurs marocaines.</li>
+              <li>Tea time quotidien et collations pendant les sessions.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 card-elev h-100">
+            <div class="eyebrow mb-2">Programme</div>
+            <ul class="list-check">
+              <li>Séances de Pilates au sol et sur Reformer.</li>
+              <li>1 séance douce.</li>
+              <li>1 soin au spa de l’hôtel (à préciser).</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 card-elev h-100">
+            <div class="eyebrow mb-2">Bien‑être & culture</div>
+            <ul class="list-check">
+              <li>Accès libre au spa & hammam.</li>
+              <li>Une expérience locale incluse (ex.&nbsp;: souks, Jardins Majorelle, musée YSL).</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 card-elev h-100">
+            <div class="eyebrow mb-2">Services</div>
+            <ul class="list-check">
+              <li>Transferts locaux pour les trajets vers les studios/activités.</li>
+              <li>Matériel fourni&nbsp;: tapis & accessoires.</li>
+              <li>Accueil personnalisé et coordination sur place.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 card-elev h-100">
+            <div class="eyebrow mb-2">Non inclus</div>
+            <ul class="list-check">
+              <li>Vols internationaux A/R vers Marrakech.</li>
+              <li>Assurances, dépenses personnelles & prestations spa additionnelles.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 bg-white rounded-4 card-elev h-100">
+            <div class="eyebrow mb-2">Budget (indicatif)</div>
+            <p class="mb-0 fs-5 fw-semibold">À partir de 2 500 € TTC / participante</p>
+            <small class="text-muted">Selon configuration finale du séjour.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ / QUESTIONS -->
+  <section id="faq" class="section">
+    <div class="container">
+      <h2 class="mb-4">Questions pratiques</h2>
+      <div class="accordion" id="faqAcc">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q1h"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1">Allotement & hébergement</button></h2>
+          <div id="q1" class="accordion-collapse collapse show" aria-labelledby="q1h" data-bs-parent="#faqAcc">
+            <div class="accordion-body">Cut‑off date souhaitée pour la libération des chambres non utilisées ?</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q2h"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2">Restauration & F&B</button></h2>
+          <div id="q2" class="accordion-collapse collapse" aria-labelledby="q2h" data-bs-parent="#faqAcc">
+            <div class="accordion-body">Petit‑déjeuner remplacé par séance + brunch. Tarifs déjeuner/dîner ajustables ? (idéalement 45€ / 55€)</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q3h"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false" aria-controls="q3">Spa</button></h2>
+          <div id="q3" class="accordion-collapse collapse" aria-labelledby="q3h" data-bs-parent="#faqAcc">
+            <div class="accordion-body">Mise en place d’un soin à 70€ par participante&nbsp;: merci de confirmer et d’orienter vers la gamme la plus adaptée.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q4h"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false" aria-controls="q4">Logistique & services</button></h2>
+          <div id="q4" class="accordion-collapse collapse" aria-labelledby="q4h" data-bs-parent="#faqAcc">
+            <div class="accordion-body">Disponibilité d’une navette quotidienne vers le studio Reformer partenaire ?</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="q5h"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false" aria-controls="q5">Espaces & aide pratique</button></h2>
+          <div id="q5" class="accordion-collapse collapse" aria-labelledby="q5h" data-bs-parent="#faqAcc">
+            <div class="accordion-body">Visite du studio possible avant validation&nbsp;? Espace intérieur/semi‑ouvert privatisable pour les séances selon météo&nbsp;?</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CTA -->
+  <section id="cta" class="section text-center">
+    <div class="container">
+      <div class="p-5 rounded-4" style="background: linear-gradient(135deg, var(--brand-cream), #fff);">
+        <div class="eyebrow mb-2">Du 5 au 8 février 2026 · Marrakech</div>
+        <h2 class="mb-3">Prête à rejoindre l’expérience&nbsp;?</h2>
+        <p class="lead mb-4">Groupe limité à 12 participantes · À partir de 2 500 € TTC · Pension complète</p>
+        <a href="#" class="btn btn-lg btn-brand">Demander une réservation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="logo h4 mb-1">MILLÉSIME STUDIO</div>
+          <small>Les pieds dans le terroir, la tête dans les étoiles.</small>
+        </div>
+        <div class="col-md-6 text-md-end mt-3 mt-md-0">
+          <a class="me-3" target="_blank" href="https://keens.life">keens.life</a>
+          <a class="me-3" target="_blank" href="https://les-deux-tours.com/?lang=fr">les-deux-tours.com</a>
+          <a target="_blank" href="https://www.instagram.com/hotel_les_deux_tours/">@hotel_les_deux_tours</a>
+        </div>
+      </div>
+      <hr class="my-4">
+      <div class="d-flex justify-content-between">
+        <small>© 2025 Millésime — Document confidentiel, diffusion restreinte.</small>
+        <small><a href="#">Mentions légales</a> · <a href="#">Politique de confidentialité</a></small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
