@@ -42,6 +42,16 @@
     .footer{background:var(--brand-cream);}
     .logo{font-family:"Playfair Display"; font-weight:700; letter-spacing:.06em;}
     a{text-decoration:none}
+    .modal-content {
+      font-family: Inter, system-ui, sans-serif;
+    }
+    .btn-success {
+      background-color: #25D366;
+      border: none;
+    }
+    .btn-success:hover {
+      filter: brightness(0.95);
+    }
   </style>
 </head>
 <body>
@@ -61,7 +71,8 @@
           <li class="nav-item"><a class="nav-link" href="#talents">Talents</a></li>
           <li class="nav-item"><a class="nav-link" href="#programme">Programme</a></li>
           <li class="nav-item"><a class="nav-link" href="#inclus">Inclus</a></li>
-          <li class="nav-item"><a class="btn btn-sm btn-brand ms-lg-3" href="https://buy.stripe.com/test_8x228tgm0eWgg0Z6kg1wY01" style='margin-top: 6px;'>Réserver</a></li>
+          <li class="nav-item"><a class="btn btn-lg btn-brand" data-bs-toggle="modal" data-bs-target="#modalReservation">Réserver votre place</a>
+</li>
         </ul>
       </div>
     </div>
@@ -375,6 +386,28 @@
       </div>
     </div>
   </footer>
+  <!-- MODALE RÉSERVATION -->
+  <div class="modal fade" id="modalReservation" tabindex="-1" aria-labelledby="modalReservationLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0 shadow-lg">
+        <div class="modal-header border-0 pb-0">
+          <h5 class="modal-title" id="modalReservationLabel">Réserver votre expérience</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+        </div>
+        <div class="modal-body text-center py-4">
+          <p class="mb-4">Choisissez votre option de réservation :</p>
+          <div class="d-grid gap-3">
+            <a href="https://buy.stripe.com/test_8x228tgm0eWgg0Z6kg1wY01" target="_blank" class="btn btn-brand btn-lg">A life of movement solo</a>
+            <a href="https://buy.stripe.com/test_eVq8wR7Pu15q6qpdMI1wY02" target="_blank"class="btn btn-brand btn-lg">A life of movement avec un accompagnant</a>
+            <a href="https://buy.stripe.com/test_cNi7sN5Hm01meWVaAw1wY03" target="_blank" class="btn btn-brand btn-lg">A life of movement duo</a>
+          </div>
+        </div>
+        <div class="modal-footer border-0 justify-content-center pb-4">
+          <small class="text-muted">Paiement sécurisé via Stripe · Groupe limité à 12 participantes</small>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
